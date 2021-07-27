@@ -1,1 +1,1 @@
-## Experiment name
+## Flexural waves in beam
