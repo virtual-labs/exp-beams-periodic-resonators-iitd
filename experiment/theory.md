@@ -6,7 +6,7 @@ The governing equation of the Euler-Bernoulli (EB) beam for free vibration can b
 
 <img src="images/th1.png" style="height: 70px;" draggable="false">
 
-where &#961; and E are density and Young's Modulus of the EB beam respectively; A is the cross-sectional area and I is the second moment of area. w &#8764;,z &#8764;,t stand for the transverse displacement, axis distance, and time.
+where &#961; and E are density and Young's Modulus of the EB beam respectively; A is the cross-sectional area and I is the second moment of area.<img src="images/dash.png" style="height: 20px"> stand for the transverse displacement, axis distance, and time.
 
 It can be assumed that w(z,&#964;)=X(z) e^(i&#969; &#175;&#964;), where X(z) is the mode shape function of the function of the beam at z, which is a complex value. Thus, Eq.(1) can be expressed as
 
