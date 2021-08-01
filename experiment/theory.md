@@ -22,7 +22,7 @@ Phase velocity "V<sub>p</sub>" defined as Eq. (5).<br>
 <img src="images/th5.png" style="height: 74px;" draggable="false"><br>
 Hence,<br>
 <img src="images/th6.png" style="height: 73px;" draggable="false"><br>
-The relation between excitation frequency <img src="images/dash3.png" style="height:25px;"> and wave number &#955;<sub>n</sub> is called dispersion relation. As here the phase velocity increase with increase in excitation frequency as per Eq. (6), the beam can be seen as dispersive medium.
+The relation between excitation frequency <img src="images/dash3.png" style="height:17px;"> and wave number &#955;<sub>n</sub> is called dispersion relation. As here the phase velocity increase with increase in excitation frequency as per Eq. (6), the beam can be seen as dispersive medium.
 <!-- <strong>
 
 1.2 Transformation of Relations
