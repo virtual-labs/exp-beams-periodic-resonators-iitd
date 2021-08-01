@@ -90,22 +90,59 @@
 
 
     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "1. Relation between group velocity and phase velocity.", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "Group velocity = 2 * phase velocity", ///// Write the option 1 inside double quotes
+                b: "Group velocity = 0.5 * phase velocity", ///// Write the option 2 inside double quotes
+                c: "Groupvelocity = phasevelocity<sup>2</sup>", ///// Write the option 1 inside double quotes
+                d: "They are not related.", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+        {
+            question: "2. Euler Bernoulli beam equation is <img src='images/q5.png' style='height: 60px;'>", ///// Write the question inside double quotes
+            answers: {
+                a: "True", ///// Write the option 1 inside double quotes
+                b: "False", ///// Write the option 2 inside double quotes
+                // c: "w", ///// Write the option 1 inside double quotes
+                // d: "u", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "a" ///// Write the correct option inside double quotes
+        },
+
+        // {
+        //     question: "3. How many mode the experiment was performed", ///// Write the question inside double quotes
+        //     answers: {
+        //         a: "mode 2 and mode 3", ///// Write the option 1 inside double quotes
+        //         b: "mode 1 and mode 3", ///// Write the option 2 inside double quotes
+        //         c: "mode 1 and mode 2", ///// Write the option 1 inside double quotes
+        //         d: "mode 4 and mode 5", ///// Write the option 2 inside double quotes
+        //     },
+        //     correctAnswer: "c" ///// Write the correct option inside double quotes
+        // },
+
+        // {
+        //     question: "4. By this experiment can we study the vibration of thin and thick circular plate?", ///// Write the question inside double quotes
+        //     answers: {
+        //         a: "Yes", ///// Write the option 1 inside double quotes
+        //         b: "No", ///// Write the option 2 inside double quotes
+        //         c: "can't say", ///// Write the option 1 inside double quotes
+        //         d: "may be", ///// Write the option 2 inside double quotes
+        //     },
+        //     correctAnswer: "b" ///// Write the correct option inside double quotes
+        // },
+
+        // {
+        //     question: "5. Is there any change of node takes place in this experiment takes place?", ///// Write the question inside double quotes
+        //     answers: {
+        //         a: "Yes", ///// Write the option 1 inside double quotes
+        //         b: "No", ///// Write the option 2 inside double quotes
+        //         c: "can't say", ///// Write the option 1 inside double quotes
+        //         d: "None of the above.", ///// Write the option 2 inside double quotes
+        //     },
+        //     correctAnswer: "b" ///// Write the correct option inside double quotes
+        // },
 
 
         
