@@ -8,21 +8,21 @@ The governing equation of the Euler-Bernoulli (EB) beam for free vibration can b
 
 where &#961; and E are density and Young's Modulus of the EB beam respectively; A is the cross-sectional area and I is the second moment of area.<img src="images/dash.png" style="height: 25px"> stand for the transverse displacement, axis distance, and time.
 
-It can be assumed that<img src="images/dash2.png" style="height: 25px"> w(z,&#964;)=X(z) e^<sup>(i&#969; &#175;&#964;)</sup>, where X(z) is the mode shape function of the function of the beam at z, which is a complex value. Thus, Eq.(1) can be expressed as
+It can be assumed that <img src="images/dash2.png" style="height: 25px"> where X(z) is the mode shape function of the function of the beam at z, which is a complex value. Thus, Eq.(1) can be expressed as
 
 <img src="images/th2.png" style="height: 70px;" draggable="false">
 
-Mode shape function X_n (z) can also be assumed:
+Mode shape function X<sub>n</sub> (z) can also be assumed:
 
 <img src="images/th3.png" style="height: 85px;" draggable="false">
 
-Substitute Eq.(3) into Eq.(2), we can obtain wave number (&#955;_n):<br>
+Substitute Eq.(3) into Eq.(2), we can obtain wave number (&#955;<sub>n</sub>):<br>
 <img src="images/th4.png" style="height: 78px;" draggable="false"><br>
-Phase velocity "V_p" defined as Eq. (5).<br>
+Phase velocity "V<sub>p</sub>" defined as Eq. (5).<br>
 <img src="images/th5.png" style="height: 74px;" draggable="false"><br>
 Hence,<br>
 <img src="images/th6.png" style="height: 73px;" draggable="false"><br>
-The relation between excitation frequency &#969; &#175;  and wave number &#955;_n is called dispersion relation. As here the phase velocity increase with increase in excitation frequency as per Eq. (6), the beam can be seen as dispersive medium.
+The relation between excitation frequency <img src="images/dash3.png" style="height:25px;"> and wave number &#955;<sub>n</sub> is called dispersion relation. As here the phase velocity increase with increase in excitation frequency as per Eq. (6), the beam can be seen as dispersive medium.
 <!-- <strong>
 
 1.2 Transformation of Relations
