@@ -97,7 +97,7 @@
                 c: "Groupvelocity = phasevelocity<sup>2</sup>", ///// Write the option 1 inside double quotes
                 d: "They are not related.", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "b" ///// Write the correct option inside double quotes
+            correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
         {
