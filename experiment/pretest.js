@@ -101,7 +101,7 @@
         },
 
         {
-            question: "2. Phase velocity (V_p) and excitation frequency (&#969;) relation.", ///// Write the question inside double quotes
+            question: "2. Phase velocity (V<sub>p</sub>) and excitation frequency (&#969;) relation.", ///// Write the question inside double quotes
             answers: {
                 a: "<img src='images/q2a.png' style='height: 45px' draggable='false'>", ///// Write the option 1 inside double quotes
                 b: "<img src='images/q2b.png' style='height: 45px' draggable='false'>", ///// Write the option 2 inside double quotes
@@ -119,7 +119,7 @@
                 c: "<img src='images/q3c.png' style='height: 58px' draggable='false'>", ///// Write the option 1 inside double quotes
                 d: "<img src='images/q3d.png' style='height: 50px' draggable='false'>", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            correctAnswer: "b" ///// Write the correct option inside double quotes
         },
 
         // {
