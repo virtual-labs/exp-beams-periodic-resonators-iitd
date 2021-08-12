@@ -195,3 +195,58 @@ html
     opacity: 0;
   }
 }
+
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes freehand1
+
+{
+
+	0% {transform:rotate(0deg);}
+
+	10%{transform:rotate(-55deg);}
+
+	20% {transform:rotate(0deg);}
+
+	/*50%{transform:rotate(-55deg);}*/
+
+	/*100% {transform:rotate(0deg);}*/
+
+}
+
+
+
+/* Standard syntax */
+
+@keyframes freehand1 
+
+{
+
+	0% {transform:rotate(0deg);}
+
+	10%{transform:rotate(-55deg);}
+
+	20% {transform:rotate(0deg);}
+
+}
+
+@keyframes shake {
+  
+  10%, 90% {
+    transform: translate3d(-3px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(0px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-3px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(0px, 0, 0);
+  }
+
+}

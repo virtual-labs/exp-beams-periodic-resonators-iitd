@@ -49,15 +49,72 @@ document.getElementById('smsg').innerHTML="&nbsp;";
 
 }
 
-
-
 var freq = 0;
+
+function showh()
+{
+	freq = document.getElementById("mat1").value;
+	if (freq == "images/h1.png")
+	{
+	document.getElementById("beam1").style.visibility="visible";
+	document.getElementById("s1b").style.visibility="visible";
+	document.getElementById("hammer1").style.visibility="visible";
+	document.getElementById("hammerarrow1").style.visibility="visible";
+	document.getElementById("cond2").style.visibility="visible";
+	document.getElementById('smsg').innerHTML="&nbsp;";
+	}
+	else if (freq == "images/h3.png")
+	{
+	document.getElementById("beam1").style.visibility="visible";
+	document.getElementById("s1b").style.visibility="visible";
+	document.getElementById("hammer1").style.visibility="visible";
+	document.getElementById("hammerarrow1").style.visibility="visible";
+	document.getElementById("cond2").style.visibility="visible";
+	document.getElementById('smsg').innerHTML="&nbsp;";
+	}
+
+	else if (freq == "images/h5.png")
+	{
+	document.getElementById("beam1").style.visibility="visible";
+	document.getElementById("s1b").style.visibility="visible";
+	document.getElementById("hammer1").style.visibility="visible";
+	document.getElementById("hammerarrow1").style.visibility="visible";
+	document.getElementById("cond2").style.visibility="visible";
+	document.getElementById('smsg').innerHTML="&nbsp;";
+	}
+
+	// if (freq !== 0)
+	// {
+	// document.getElementById("beam1").style.visibility="visible";
+	// document.getElementById("s1b").style.visibility="visible";
+	// document.getElementById("hammer1").style.visibility="visible";
+	// document.getElementById('smsg').innerHTML="&nbsp;";
+	// }
+	else
+	{
+		document.getElementById('smsg').innerHTML="Select Frequency";
+	}
+
+}
+
+
 
 
 function showgraph()
 
 {
 	freq = document.getElementById("mat1").value;
+
+	document.getElementById("cond2").style.visibility="hidden";
+	document.getElementById("hammerarrow1").style.visibility="hidden";
+    document.getElementById("hammer1").style.animation="freehand1 2s forwards";
+    document.getElementById("vibhit1").style.visibility="visible";
+	document.getElementById("vibhit2").style.visibility="visible";
+	document.getElementById("vibhit1").style.animation="shake 0.5s infinite";
+    document.getElementById("vibhit2").style.animation="shake 0.5s infinite";
+
+    setTimeout(function()
+            {
 
 if (freq == "images/h1.png")
 	{
@@ -112,7 +169,7 @@ else
 		document.getElementById('smsg').innerHTML="Select Frequency";
 	}
 	
-
+},3000);
 }
 
 function reset()

@@ -19,7 +19,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <script src="https://kit.fontawesome.com/afa6483c49.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/afa6483c49.js" crossorigin="anonymous"></script> -->
 
     <script type="text/javascript" src="main.js"></script>
 
@@ -66,7 +66,7 @@
 
             <p class="incanvas" style="font-size:14px;">Beam</p></br>
 
-			<img src="images/ss1.png" style="position: absolute; top: 265px; left: 30px; height: 250px;">
+			<img src="images/ss1.png" style="position: absolute; top: 265px; left: 30px; height: 225px;">
 
             <img src="images/man.png" style="position:absolute; left: 585px; top: 130px; height: 405px;" title="Man" />
 
@@ -94,7 +94,7 @@
         <span style="position: absolute; left: 120px; top: 70px;"><strong>Select Frequency</strong></span>
 
 		
-            <select onchange="ok2()" id="mat1" style="position: absolute; left: 265px; top: 65px; width: 150px; padding-top: 2px; padding-bottom: 2px;">
+            <select id="mat1" style="position: absolute; left: 265px; top: 65px; width: 150px; padding-top: 2px; padding-bottom: 2px;">
 
                 <option value="images/h0.png">--Select--</option>
 
@@ -103,8 +103,16 @@
                 <option value="images/h3.png">Frequency 2</option>
                 
                 <option value="images/h5.png">Frequency 3</option>
+<!-- 
+                <option value="images/h0.png">--Select--</option>
 
-                <!-- <option value="images/h4.png">Frequency 4</option> -->
+                <option value="images/h1.png">Frequency 1</option>
+
+                <option value="images/h3.png">Frequency 2</option>
+                
+                <option value="images/h5.png">Frequency 3</option>
+
+                <option value="images/h4.png">Frequency 4</option> -->
 
                 <!-- <option value="images/h5.png">Frequency 5</option> -->
 
@@ -112,14 +120,21 @@
 
             <span id="fillBox" style="position: absolute; left: 265px; top: 300px; color: red;"></span>
 
-            <input class="incanvas" id="show1" type="button" name="Submit" value="Submit" style="position: absolute; left: 445px; top: 50px; width: 65px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;" onclick="showgraph()"/>
+            <input class="incanvas" id="show1" type="button" name="Submit" value="Submit" style="position: absolute; left: 445px; top: 50px; width: 65px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;" onclick="showh()"/>
 
-            <img src="images/h0.png" id="img4"  style="position:absolute; left: 240px; top: 92px; height: 230px;"/>
+<!-- showgraph() -->
+            <!-- <img src="images/h0.png" id="img4"  style="position:absolute; left: 240px; top: 92px; height: 230px;"/> -->
 
-            <img src="images/beam.png" id=""  style="position:absolute; left: 160px; top: 355px; height: 48px;"/>
+            <img src="images/firstimg.png" id="beam1" style="position:absolute; left: 100px; top: 305px; height: 120px; visibility: hidden;"/>
 
-            <img src="images/beam2.png" id=""  style="position:absolute; left: 250px; top: 305px; height: 50px;"/>
+            <!-- <img src="images/hammer.png" id="hammer1" style="position:absolute; left: 440px; top: 235px; height: 190px; visibility: hidden;"/> -->
+            <img src="images/hammer.png" id="hammer1"  style="position: absolute; left: 475px; top: 220px; height: 190px; transform-origin: bottom; transform: rotate(-10deg); visibility: hidden;">
 
+            <img src="images/vibrate.png" id="vibhit1"  style="position: absolute; top: 280px; left: 190px; height: 60px; visibility: hidden;">
+            <img src="images/vibrate2.png" id="vibhit2"  style="position: absolute; top: 410px; left: 430px; height: 60px;  visibility: hidden;">
+            <span class="blink_me" id="hammerarrow1" style="position:absolute; font-size: 40px; left: 535px; top: 255px; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+            <img src="images/transbox.png" id="cond2"  style="position: absolute; left: 475px; top: 220px; width: 80px; height: 195px;transform-origin: bottom; transform: rotate(-10deg); visibility: hidden;" onclick="showgraph()">
             <!-- <img src="images/leftspring.png" id=""  style="position:absolute; left: 595px; top: 402px; height: 130px;"/> -->
 
             <!-- <img src="images/fixed.png" id=""  style="position:absolute; left: 558px; top: 530px; height: 15px;"/> -->
